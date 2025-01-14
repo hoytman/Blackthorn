@@ -100,51 +100,51 @@ this.game_data = {
   lab: {
     main_text:  "You enter a large room and find youself surrounded by strange electrical equipment.  Lightning arcs through the air all around you.  At the far end of the room, there is a mysterious orb.  Could that contain the soul that you are looking for?",
     win_room:  'monster',
-    win_text:  "You hear someone coming and duck out of sight.",
+    win_text:  "You hear someone coming and duck out of sight.  A mad scientist and his monster enter the room.",
     fail_room: 'monster_mad',
-    fail_text:  "As you dash for the orb, a huge hand clamp onto your shoulder.  As you Look up, you see a monster man and a mad scientist.  \"Looks like we have some additional parts for you." says the scientist as he injects you with lethal chemicals and harvests your organs. "
+    fail_text:  "As you dash for the orb, a huge hand grabs your shoulder.  You Look up and see a monstrous man and a mad scientist.  \"Ah yes!  More spare parts!." says the scientist as he injects you with a lethal chemical and then harvests your organs."
   },
   monster: {
-    main_text:  "A mad scientist and his monster walk past, headed for the orb.  \"Don't worry my boy, soon you will have a real soul in your body, and those day of ridicule and failure will be behind us.\" the scientist says as he reaches for a lever. ",
+    main_text:  "A mad scientist and his monster walk past you, headed towards the orb.  \"Don't worry my boy.  In a moment you'll have a real soul in your body, and the other monsters will stop ridiculing us!\" the scientist says as he reaches for a lever.",
     win_room:  'smash',
-    win_text:  "You jump from you hiding spot and run for the orb.",
+    win_text:  "You jump from you hiding spot and make a dash for the orb.",
     fail_room: 'shocked',
-    fail_text:  "You wait a bit too long and the electricity from the soul transfer machine zaps you and evaporates your body.  Looks like your life is over, unless you fancy being incorporated into a monster."
+    fail_text:  "You watch in horror as the scientist pulls the lever an electricity fills the room.  It  atomizes your body and sucks up your soul!  Looks like your life is over, unless you fancy living inside a monster."
   },
   smash: {
-    main_text:  "\"Get Him!\" yells the scientist as you snatch the orb out of his machine.  The monster howls and goes biserk.  As he tries to catch you, he starts smashing the machines."
+    main_text:  "\"Get Him!\" yells the scientist as you snatch the orb out of his machine.  The monster howls and goes totally biserk, smashing everything in sight!"
     win_room:  'mob',
-    win_text:  "You dash to the tunnel in the nick of time, barely avoiding the monster as you run towards freedom.",
+    win_text:  "You dash out of the room, through the tunnel, and back out into the forest.  The scientist in the monster are hot on your trail!",
     fail_room: 'boom',
-    fail_text:  "The monster finally hits smething importatn and the entire lab goes up in a huge fireball.  You, the monster, and the scientist are instantly  incenerated and your ashes rain down for miles."
+    fail_text:  "The monster eventually smashes something important and the entire lab explodes into a giant Fireball!  Everybody is instantly incinerated, and your ashes rain down over the countryside."
   },
 mob: {
-    main_text:  "You escape into the forest with the orb, and run as fast as you can.  You pause to look bhind you and see several angry monsters!  They want payback for destroying the lab and ruining dinner.",
+    main_text:  "You flee through the forest running as fast as you can.  Pausing for a moment to catch your breath, you look behind you and see all of the monsters in hot pursuit.  Apparently you've made a lot of enemies tonight.",
     win_room:  'grim',
-    win_text:  "You don't waist a second and run towards a light in the forest.",
+    win_text:  "Despite your exhaustion you continue to run, fleeing in the direction of an eerie light deep in the woods.",
     fail_room: 'meats',
-    fail_text:  "You panic and trip.  The monsters catch you and drag you back to the castle, where they make monster sausages out of you.  You will be on their menu for many days to come."
+    fail_text:  "You panic and trip as you try to escape.  The monsters overtake you and drag you back to the castle, where they turn you into human sausage.  Congratulations, you've become a lovely addition to their feast!"
   },
 grim: {
-    main_text:  "You follow the light untill you find the grim reaper!  His terifying presence scares away the other monsters.  Death stares at you with his scythe drawn.",
+    main_text:  "You follow the eerie glow until you discover the Grim Reaper, lurking deep within the forest.  His terrifying presence scares away the other monsters and petrifies you with fear.  He Grins and raises his scythe...",
     win_room:  'success',
-    win_text:  "He swings his scythe at you and you block it with the orb.  The orb smashes and the soul inside is set free!",
+    win_text:  "The Grim Reaper swings his scythe down upon you as you raise the orb in defense. he strikes the orb and shatters it.  As the  child's soul emerges, the Grim Reaper fades away.  His bloodlust has been satisfied.",
     fail_room: 'death',
-    fail_text:  "He swings his scythe at you and claims your soul!  The world faids to black as death escorts you to the after life."
+    fail_text:  "The Grim Reaper swings his scythe down upon you and reaps your soul from your body.  The world Fades to black as the Grim Reaper escorts you across the void into the Afterlife."
   },
 success: {
-    main_text:  "You watch as the ghost of the your boy rises into the sky.  He is joined by the ghose of his sister and together they float off into the night.  You feel a deep warmth in you heart, but every other part feels ice cold!",
+    main_text:  "As the boys Soul Rises into the nigh, he is joined by the soul of his sister and they both crossover together.  You feel a deep warmth in your heart, knowing that you've sent them on their way.  Unfortunately the rest of you is freezing.",
     win_room:  'train',
-    win_text:  "You search the forest for an escape and find a train!",
+    win_text:  "As you search the forest for refuge, you  discover railroad tracks!  Just around the bin, you see a locomotive pulling a train in your direction.",
     fail_room: 'frozen',
-    fail_text:  "You wander the forest for the rest of the night, and freeze to death in the snow.  You were so close!"
+    fail_text:  "You hopelessly wonder the snowy forest for the rest of the night, searching for salvation from the cold searching for salvation from the cold.  The morning eventually comes, but it finds you frozen to death."
   },
   train: {
-    main_text:  "You come upon a train track with a train roaring past.  If you can get aboard, you just might survive the night.",
+    main_text:  "You run towards the train, desperately searching for a way to board it as it thunders past.",
     win_room:  'car',
-    win_text:  "You just manage to grab onto the last car, and pull yourelf aboard.  After finding a cozy spot, you watch as the nightmare faids away in the distance.",
+    win_text:  "You barely managed to grab the final boxcar as it zips past, and pull yourself into the warm safety of the boxcar.  The train Thunders into the night putting many miles between you and the nightmare you just survived ",
     fail_room: 'mess',
-    fail_text:  "You jump for the train and manager to get hit by it!  It makes a spactacular mess of your body, which the forest hunters are glad to clean up."
+    fail_text:  "You desperately leap for the passing train but managed to get caught in its unforgiving wheels. The train grinds you into a bloody pulp and scatters your remains across the forest.  The bears and wolves will eat well tonight."
   },
 }
 
