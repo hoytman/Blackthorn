@@ -112,7 +112,7 @@ this.game_data = {
     fail_text:  "You watch in horror as the scientist pulls the lever an electricity fills the room.  It  atomizes your body and sucks up your soul!  Looks like your life is over, unless you fancy living inside a monster."
   },
   smash: {
-    main_text:  "\"Get Him!\" yells the scientist as you snatch the orb out of his machine.  The monster howls and goes totally biserk, smashing everything in sight!"
+    main_text:  "\"Get Him!\" yells the scientist as you snatch the orb out of his machine.  The monster howls and goes totally biserk, smashing everything in sight!",
     win_room:  'mob',
     win_text:  "You dash out of the room, through the tunnel, and back out into the forest.  The scientist in the monster are hot on your trail!",
     fail_room: 'boom',
