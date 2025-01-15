@@ -1,150 +1,142 @@
-this.game_data = {
-  gate: {
-    main_text:  "You’ve been wandering the forest for three days with nothing eat. As you round a bend, you see a clearing with an ominous-looking castle silhouetted by the dying light of the day. Rain and sleet begins to fall as you approach the front gate.  A dark sensation comes over you as you start to cross the bridge.",  
-    win_room:  'entry',
-    win_text:  'You carefull cross the bridge, open the front door and enter the castle.',
-    fail_room: 'mote',
-    fail_text:  "As you cross the bridge, you trip on a stone and fall over the side.  You fall into the mote and get eaten by Crocodiles."
+{
+  "gate": {
+    "main_text": "After wandering the forest for 3 days without food, you round a bend and see an ancient castle.  Its  haunting Gothic arches give you the creeps, but you're so hungry you decide to cross the bridge and enter the gate.",
+    "win_room": "entry",
+    "win_text": "You carefully cross the bridge, open the main gate and venture inside.",
+    "fail_room": "mote",
+    "fail_text": "As you try to cross the bridge, you trip on a loose stone and fall over the edge. You plummet into the moat below and are immediately eaten by giant lizards."
   },
-  entry: {
-    main_text:  "Inside the castle You find yourself surrounded by beautiful stonework, exquisite lighting, and intricate ornamentation. Still, the foreboding feeling lingers, like a specter right behind you.",
-    win_room:  'shadow',
-    win_text:  'You carefull cross the bridge, open the front door and enter the castle.',
-    fail_room: 'brokenglass',
-    fail_text:  "As you walk forward, the chandelier suddenly detaches from the ceiling and plummets to the floor, shattering into a million pieces.  It crushes you to death."
+  "entry": {
+    "main_text": "Inside the castle, you find yourself surrounded by beautiful stonework, exquisite lighting, and intricate ornamentation. However, the creepy feeling lingers, growing stronger.",
+    "win_room": "shadow",
+    "win_text": "You carefully cross the bridge, open the front door and enter the castle.",
+    "fail_room": "brokenglass",
+    "fail_text": "A massive chandelier falls from the ceiling and lands on top of you.  It smashes into a thousand pieces as it crushes you to death."
   },
-  shadow: {
-    main_text:  "The feeling of dread grows as you wonder the coridore.  You glancing behind you and see a dark shadow aproaching you!",
-    win_room:  'angry_butler',
-    win_text:  'You run as fast as you can from the shadow and exit the coridore.',
-    fail_room: 'madness',
-    fail_text:  "You freeze in terror and the shadow over takes you.  You feel yourself ripped from the material world and tossed into the rhelm of maddness, never to return."
+  "shadow": {
+    "main_text": "As you walk down the corridor, a thick feeling of dread fills your soul.  You glance behind you and see a dark specter quickly approaching you!",
+    "win_room": "angry_butler",
+    "win_text": "You run as fast as you can from the specter and exit the corridor.",
+    "fail_room": "madness",
+    "fail_text": "You freeze in terror as the specter over takes you.  Your corporeal form is ripped from the material world and tossed into the realm of madness, from which there is no return."
   },
-  angry_butler: {
-    main_text:  "You emerge from the coridore and run into the butler who has been sent to greet you.  \"Do you have an initation?\" he asks.",
-    win_room:  'dinner',
-    win_text:  '\"Yes, its righ here\" you say as you start the rummage through you pockets.  The butler eyes you fearcly.',
-    fail_room: 'butler_attack',
-    fail_text:  "\"A what?\" you ask stupidly.   \"I see.  You are not an invited guest.\" He says as he pulls out a knife and stabs you to death."
+  "angry_butler": {
+    "main_text": "You emerge from the corridor and run into the butler who's been sent to greet you.  \\\"Do you have an invitation?\\\" he asks.",
+    "win_room": "dinner",
+    "win_text": "\"yes it's right here.\" you say as you pretend to search your pockets.  The butler looks annoyed. \"Right then.  Come along.  You're already very late,\"  he says as he leads you away.",
+    "fail_room": "butler_attack",
+    "fail_text": "\"A what?\" you ask stupidly.   \"I see.  You are not an invited guest.\" He says as he pulls out a knife and stabs you to death."
   },
-  dinner: {
-    main_text:  "\"Yes, yes, alright then\" says the butler impatiently \"Come along, you're already late.\".  He leads you into a grand hall where several grave individuals are having dinner.",
-    win_room:  'dinner_plate',
-    win_text:  '\"You quickly take a seat before anyone takes notice of you.',
-    fail_room: 'dracula',
-    fail_text:  "A mysterious figure looks up at you, then leaps for your throat! \"Mmmm, A tasty mortal\" he says after spilling you blood all over the table."
+  "dinner": {
+    "main_text": "The butler brings you to a large dining hall where several well-dressed guests are enjoying dinner.  There's something very strange about this group.  You might even say... monstrous.",
+    "win_room": "dinner_plate",
+    "win_text": "You quickly find a place to sit before anybody takes notice of you.",
+    "fail_room": "dracula",
+    "fail_text": "\"Hello everyone,\" you say.  A mysterious gentleman stands to meet you.  \"You must be the main course,\" he says before he savagely bites you in the throat, spilling your blood across the table."
   },
-  dinner_plate: {
-    main_text:  "The butler brings you a plate of delicious looking food and wine, which you can barely resist.",
-    win_room:  'child',
-    win_text:  "...but something doesn't smell right.",
-    fail_room: 'choking',
-    fail_text:  "Everything tastes like human blood!  What have you eaten!?  As the truth dawns on you, you gasp in terror and began to choke. You soon expire, surrounded by hungry guests."
+  "dinner_plate": {
+    "main_text": "The butler brings you a delicious looking plate full of food and a tantalizing glass of red wine.  It all looks so good you can hardly resist it.",
+    "win_room": "child",
+    "win_text": "...but something about it doesn't smell right.  You decide not to partake, while you look around for a way out.",
+    "fail_room": "choking",
+    "fail_text": "You take a mouth full of food and nearly vomit.  It tastes like human blood!  You panic and begin to choke.  You fall to the floor and expire while the other hungry guests surround you."
   },
-  child: {
-    main_text:  "You look up from you ill faited meal and think you see a child standing at ont of the doorw2ays.  She quickly darts away, into the gloom, or was it your imagination?",
-    win_room:  'stairs',
-    win_text:  "You carfully sneek away before anyone notices.",
-    fail_room: 'wolves',
-    fail_text:  "You rise and head towards the door calling \"Child?\".  \"Where do you think you are going!?\" Scream a pair of Lycanthropes, who transform into werewolf before mauling you to death."
+  "child": {
+    "main_text": "As you scan the room you think you see a frightened child standing in one of the doorways.  When you glance back she's gone.  Were you dreaming?  You must find out.",
+    "win_room": "stairs",
+    "win_text": "You carefully sneak away, and make it through the doorway before anyone sees you.",
+    "fail_room": "wolves",
+    "fail_text": "You rise to leave, and disturb the table with your knees. \"Where do you think you're going?!\" yells a pair of lycanthrope before transform into wolves and tearing you to bits."
   },
-  stairs: {
-    main_text:  "You follow the child and find a tall staircase.  Where did she go?  She must have run up them.",
-    win_room:  'rafters',
-    win_text:  "You quietly assend the stairs.",
-    fail_room: 'bats',
-    fail_text:  "storm up the stairs and rouse a multitule of bats.  They attack you, bitting you over and over untill you loose your balance and fall down the stone stairs to your death."
+  "stairs": {
+    "main_text": "You walk through the doorway, searching for the child.  All you find is a staircase leading upwards.  She must have gone up those stairs.",
+    "win_room": "rafters",
+    "win_text": "You quietly ascend the stairs.",
+    "fail_room": "bats",
+    "fail_text": "You storm up the stairs as fast as you can and disturb a horde of bats.   They take flight and start biting you all over, causing you to lose your balance.  You fall down the stairs to your death."
   },
-  rafters: {
-    main_text:  "At the top of the stairs, you find a dusty set of rafters, filled with cobwebs.",
-    win_room:  'ghost',
-    win_text:  "You wait and ponder your choices.  An other-worldly voice starts to speak to you.",
-    fail_room: 'spider',
-    fail_text:  "You began the search the rafters for the girl, and disturbe the cobwebs.  A huge spider decends upon you and bites you.  Everything soon fades the black as your body turns to goo."
+  "rafters": {
+    "main_text": "At the top of the staircase you see countless wooden rafters which are covered in dust and cobwebs.  The child but she must be around here somewhere.",
+    "win_room": "ghost",
+    "win_text": "As you ponder your situation, you hear a mournful moaning.  A young ghost materializes in front of you.",
+    "fail_room": "spider",
+    "fail_text": "You begin to search the rafters, disturbing the dust and cobwebs. a gigantic spider appears out of the gloom and bites you. It's venom causes you to melt into goo."
   },
-  ghost: {
-    main_text:  "A ghostly aparitin of a girl appears infront of you \"Please help us.\" she says \"My uncle murdered me and my brother, and cast a terrable spell on us, trapping our souls in this castle.  You must free us\",
-    win_room:  'ghost',
-    win_text:  "\"How?\" you ask.  \"You must confront my uncle in the dungen.  Free my brother from his prison, then we can escape together.\"",
-    fail_room: 'angry_ghost',
-    fail_text:  "\"Sorry kid, I have y own problems to deal with.\" You say.  She shreaks and shatters your soul.  Your lifeless body crumbles to the ground as your essence fades to nothing."
+  "ghost": {
+    "main_text": "You freeze as the ghost begins to speak to you in a mournful tone.  \"Please, you must help us!  Uncle has murdered me and my brother, and he has stolen my brother's soul.   Please, I can't leave him behind!\"",
+    "win_room": "rats",
+    "win_text": "\"How can I help?\" you ask.  \"You must confront my uncle in the dungeon.  Free my brother from his soul prison so that we can escape this world together,\" she says before fading into mist.",
+    "fail_room": "angry_ghost",
+    "fail_text": "\"Sorry kid, I have my own problems deal with,\" You say.  She shrieks in rage and shatters your soul.  Your lifeless body crumples to the ground as your essence fades away to nothing."
   },
-  ghost: {
-    main_text:  "A ghostly aparitin of a girl appears infront of you \"Please help us.\" she says \"My uncle murdered me and my brother, and cast a terrable spell on us, trapping our souls in this castle.  You must free us\",
-    win_room:  'rats',
-    win_text:  "\"How?\" you ask.  \"You must confront my uncle in the dungen.  Free my brother from his prison, then we can escape together.\" she says as she fades away.",
-    fail_room: 'angry_ghost',
-    fail_text:  "\"Sorry kid, I have y own problems to deal with.\" You say.  She shreaks and shatters your soul.  Your lifeless body crumbles to the ground as your essence fades to nothing."
+  "rats": {
+    "main_text": "As you ponder the ghost's words in the attic, hundreds of rats start pouring out of holes the walls.  Suddenly you are surrounded by a horde of squealing rats.",
+    "win_room": "roof",
+    "win_text": "Quick as a flash, you leap through a window and jump out onto the roof.",
+    "fail_room": "bone",
+    "fail_text": "The rats engulf you in a sea of writhing bodies and snapping jaws.  They bite and tear at you, consuming your flesh until there's nothing left but bones."
   },
-  rats: {
-    main_text:  "Your ponderings are interupted by a terrable shreaking.  A horde of rats suddenly starts spilling from a channel in the wall!  They scamper towards you with a ravonous glare.",
-    win_room:  'roof',
-    win_text:  "Quick as the night, you leap to a window and jump out onto the roof.",
-    fail_room: 'bones',
-    fail_text:  "The rats fall upon you and feast on your fleash.  They feed untill nothing remains but your bones."
+  "roof": {
+    "main_text": "You perch precariously on the steep roof, searching for a way down.  Eventually you see a drain pipe that might support your weight.",
+    "win_room": "tunnel",
+    "win_text": "You carefully and quickly make your way to the drain pipe and climb down to the ground below.",
+    "fail_room": "witch",
+    "fail_text": "You awkwardly muck about on the roof until a flying witch takes notice of your peril.  She thinks it would be great fun to harass you, and does so until you fall to your death."
   },
-  roof: {
-    main_text:  "A cold wind is blowing across the frozen roof.  There is a drain pipe leading down.  Maybe you can use it to climb of the roof. ",
-    win_room:  'tunnel',
-    win_text:  "You carefully and quickly slid to the drain pipe and climb to the ground.",
-    fail_room: 'witch',
-    fail_text:  "As you awkwardly muck about on the roof untill a local witch takes notice of you.  She thinks it would be fun to harass you.  She does so untill you slip and fall to your death."
+  "tunnel": {
+    "main_text": "You reach the ground and notice a tunnel entrance that radiates a dim, flickering light.  You hear peculiar sounds including the cackling laughter of a madman.   Could this be the girl's uncle?",
+    "win_room": "lab",
+    "win_text": "You walk to the tunnel entrance, open the door and slip inside unnoticed.",
+    "fail_room": "aliens",
+    "fail_text": "As you ponder your predicament, a blinding flash surrounds you.  You're whisked away to an alien ship, where they put your head in a jar and force you to watch as they disassemble and study every part of your anatomy."
   },
-  tunnel: {
-    main_text:  "When you reach the ground, you notice a tunnel the appears to lead back inot the depths of the castle.  There is light flickering from the entrance and plenty of noise.  What could be going on down there?",
-    win_room:  'lab',
-    win_text:  "Quickly enter the tunnel and enter the lower leves of the castle.",
-    fail_room: 'aliens',
-    fail_text:  "As you ponder your options, a bright flash blinds you as you are teleported to an alien space ship.  What are the odds?  The aliens then disassembled you bit by bit and study every aspect of your body in pains staking detail."
+  "lab": {
+    "main_text": "You enter a large underground chamber filled with electronic equipment.  You endure a cacophony of peculiar noises and lightning while you search the area.  You notice a glowing orb in a container.  It must be brother's soul!",
+    "win_room": "monster",
+    "win_text": "You hear footsteps coming and managed to slip out of sight.  Dr. Frankenstein and his monster appear!",
+    "fail_room": "monster_mad",
+    "fail_text": "As you dash for the orb, a huge hand grabs your shoulder.  You Look up and see a Dr. Frankenstein and his monster.  \\\"Ah yes!  More spare parts!\" says the doctor.  He injects you with a lethal chemical and then cuts out your organs."
   },
-  lab: {
-    main_text:  "You enter a large room and find youself surrounded by strange electrical equipment.  Lightning arcs through the air all around you.  At the far end of the room, there is a mysterious orb.  Could that contain the soul that you are looking for?",
-    win_room:  'monster',
-    win_text:  "You hear someone coming and duck out of sight.  A mad scientist and his monster enter the room.",
-    fail_room: 'monster_mad',
-    fail_text:  "As you dash for the orb, a huge hand grabs your shoulder.  You Look up and see a monstrous man and a mad scientist.  \"Ah yes!  More spare parts!." says the scientist as he injects you with a lethal chemical and then harvests your organs."
+  "monster": {
+    "main_text": "Dr Frankenstein walks to the orb with his monster and says \"Don't worry my boy, soon I will fill your body with a true soul.  You'll no longer be the laughing stock of the monster community.\"",
+    "win_room": "smash",
+    "win_text": "You jump from you hiding spot and run for the orb.  You snatch it before you foes have time to react.",
+    "fail_room": "shocked",
+    "fail_text": "The doctor pulls a lever and lightning fills the room.  It evaporates your body, and captures your soul.  It seems that you've suffered the same terrible fate as the ghost's brother.  How unfortunate."
   },
-  monster: {
-    main_text:  "A mad scientist and his monster walk past you, headed towards the orb.  \"Don't worry my boy.  In a moment you'll have a real soul in your body, and the other monsters will stop ridiculing us!\" the scientist says as he reaches for a lever.",
-    win_room:  'smash',
-    win_text:  "You jump from you hiding spot and make a dash for the orb.",
-    fail_room: 'shocked',
-    fail_text:  "You watch in horror as the scientist pulls the lever an electricity fills the room.  It  atomizes your body and sucks up your soul!  Looks like your life is over, unless you fancy living inside a monster."
+  "smash": {
+    "main_text": "\"Get Him!\" yells the scientist as you flee with the orb.  The monster howls and goes crazy.  The creature rampages around the lab, smashing everything as he tries to catch you.",
+    "win_room": "mob",
+    "win_text": "You dash to the tunnel in the nick of time, barely avoiding the monster as you run towards freedom.",
+    "fail_room": "boom",
+    "fail_text": "You duck as the monster swings and smashes a chemical vat, triggering a huge explosion.  The entire lab goes up in a huge fireball as you, the monster, and the scientist are instantly incinerated."
   },
-  smash: {
-    main_text:  "\"Get Him!\" yells the scientist as you snatch the orb out of his machine.  The monster howls and goes totally biserk, smashing everything in sight!",
-    win_room:  'mob',
-    win_text:  "You dash out of the room, through the tunnel, and back out into the forest.  The scientist in the monster are hot on your trail!",
-    fail_room: 'boom',
-    fail_text:  "The monster eventually smashes something important and the entire lab explodes into a giant Fireball!  Everybody is instantly incinerated, and your ashes rain down over the countryside."
+  "mob": {
+    "main_text": "You flee through the forest running as fast as you can.  Pausing for a moment to catch your breath, you look behind you and see several monsters in hot pursuit.  Apparently you've made a lot of enemies tonight.",
+    "win_room": "grim",
+    "win_text": "Despite your exhaustion, you continue to flee, running in the direction of an eerie light deep in the woods.",
+    "fail_room": "meats",
+    "fail_text": "You panic and trip as you try to escape.  The monsters overtake you and drag you back to the castle, where they turn you into sausage.  Congratulations, you've become a lovely addition to their next feast!"
   },
-mob: {
-    main_text:  "You flee through the forest running as fast as you can.  Pausing for a moment to catch your breath, you look behind you and see all of the monsters in hot pursuit.  Apparently you've made a lot of enemies tonight.",
-    win_room:  'grim',
-    win_text:  "Despite your exhaustion you continue to run, fleeing in the direction of an eerie light deep in the woods.",
-    fail_room: 'meats',
-    fail_text:  "You panic and trip as you try to escape.  The monsters overtake you and drag you back to the castle, where they turn you into human sausage.  Congratulations, you've become a lovely addition to their feast!"
+  "grim": {
+    "main_text": "You follow the eerie glow until you discover the Grim Reaper, lurking deep within the forest.  His terrifying presence scares away the other monsters and petrifies you with fear.  He grins and raises his scythe...",
+    "win_room": "success",
+    "win_text": "The Grim Reaper swings his scythe down upon you as you raise the orb in defense. he strikes the orb and shatters it.  As the child's soul emerges, the Grim Reaper fades away.  His bloodlust has been satisfied.",
+    "fail_room": "death",
+    "fail_text": "The Grim Reaper swings his scythe down upon you and reaps your soul.  The world fades to black as the Grim Reaper quietly escorts you across the void into the afterlife."
   },
-grim: {
-    main_text:  "You follow the eerie glow until you discover the Grim Reaper, lurking deep within the forest.  His terrifying presence scares away the other monsters and petrifies you with fear.  He Grins and raises his scythe...",
-    win_room:  'success',
-    win_text:  "The Grim Reaper swings his scythe down upon you as you raise the orb in defense. he strikes the orb and shatters it.  As the  child's soul emerges, the Grim Reaper fades away.  His bloodlust has been satisfied.",
-    fail_room: 'death',
-    fail_text:  "The Grim Reaper swings his scythe down upon you and reaps your soul from your body.  The world Fades to black as the Grim Reaper escorts you across the void into the Afterlife."
+  "success": {
+    "main_text": "You watch as the ghostly soul rises into the forest.  He is joined by the ghost of his sister and together they float off into the night.  You feel a deep warmth in you heart... but every other part is ice cold!",
+    "win_room": "train",
+    "win_text": "As you search the forest for refuge, you  discover railroad tracks!  Just around the bin, you see a locomotive pulling a train in your direction.",
+    "fail_room": "frozen",
+    "fail_text": "You hopelessly wonder the snowy forest for the rest of the night, searching for salvation from the cold searching for salvation from the cold.  The morning eventually comes, but it finds you frozen to death."
   },
-success: {
-    main_text:  "As the boys Soul Rises into the nigh, he is joined by the soul of his sister and they both crossover together.  You feel a deep warmth in your heart, knowing that you've sent them on their way.  Unfortunately the rest of you is freezing.",
-    win_room:  'train',
-    win_text:  "As you search the forest for refuge, you  discover railroad tracks!  Just around the bin, you see a locomotive pulling a train in your direction.",
-    fail_room: 'frozen',
-    fail_text:  "You hopelessly wonder the snowy forest for the rest of the night, searching for salvation from the cold searching for salvation from the cold.  The morning eventually comes, but it finds you frozen to death."
-  },
-  train: {
-    main_text:  "You run towards the train, desperately searching for a way to board it as it thunders past.",
-    win_room:  'car',
-    win_text:  "You barely managed to grab the final boxcar as it zips past, and pull yourself into the warm safety of the boxcar.  The train Thunders into the night putting many miles between you and the nightmare you just survived ",
-    fail_room: 'mess',
-    fail_text:  "You desperately leap for the passing train but managed to get caught in its unforgiving wheels. The train grinds you into a bloody pulp and scatters your remains across the forest.  The bears and wolves will eat well tonight."
-  },
+  "train": {
+    "main_text": "You run towards the train, desperately searching for a way to board it as it thunders past.",
+    "win_room": "car",
+    "win_text": "You barely managed to grab the final boxcar as it zips past, and pull yourself into the warm safety of the boxcar.  The train thunders into the night, putting many miles between you and the nightmare you just survived.",
+    "fail_room": "mess",
+    "fail_text": "You desperately leap for the passing train but managed to get caught in its unforgiving wheels. The train grinds you into a bloody pulp and scatters your remains across the forest.  The bears and wolves will eat well tonight."
+  }
 }
-
